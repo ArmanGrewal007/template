@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { ghPages } from "vite-plugin-gh-pages";
-import { defineConfig } from "vite"
+import path from "path";
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
