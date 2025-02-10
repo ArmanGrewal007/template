@@ -7,7 +7,7 @@ import path from "path";
 export default defineConfig(({ mode }) => {
   return {
     plugins: [react(), ghPages()],
-    base: mode == "production" ? "/repo_name/" : "/",
+    base: mode == "production" ? "/armangrewal007-template/" : "/",
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "./src"),
