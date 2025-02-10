@@ -6,5 +6,5 @@ Install it as
 ```bash
 npx create-armangrewal007-app <your-project-name>
 # Which runs this in background + additional setup
-npx degit armangrewal007/template <your-project-name>
+# npx degit armangrewal007/template <your-project-name>
 ```
